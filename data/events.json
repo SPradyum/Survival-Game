@@ -1,0 +1,92 @@
+[
+  {
+    "id": "night_noise",
+    "environment": ["forest", "city"],
+    "description": "You hear footsteps circling your shelter in the dark.",
+    "choices": [
+      {"text": "Investigate quietly", "effects": {"energy": -6, "reputation": 1}, "probability": 0.7},
+      {"text": "Hide and wait", "effects": {"morale": -4}, "probability": 1.0}
+    ]
+  },
+  {
+    "id": "lost_traveler",
+    "environment": ["forest", "desert"],
+    "description": "A lost traveler asks for water.",
+    "choices": [
+      {"text": "Share water", "effects": {"reputation": 2, "hunger": -4}, "probability": 0.8},
+      {"text": "Refuse", "effects": {"morale": -2}, "probability": 1.0}
+    ]
+  },
+  {
+    "id": "collapsed_building",
+    "environment": ["city"],
+    "description": "A damaged building collapses nearby.",
+    "choices": [
+      {"text": "Search for supplies", "effects": {"health": -8, "hunger": 12}, "probability": 0.6},
+      {"text": "Avoid the danger", "effects": {"energy": 3}, "probability": 1.0}
+    ]
+  },
+  {
+    "id": "animal_attack",
+    "environment": ["forest"],
+    "description": "Wild animals threaten your camp.",
+    "choices": [
+      {"text": "Fight them off", "effects": {"health": -10, "reputation": 2}, "probability": 0.6},
+      {"text": "Retreat silently", "effects": {"energy": -4}, "probability": 1.0}
+    ]
+  },
+  {
+    "id": "freezing_night",
+    "environment": ["arctic"],
+    "description": "A freezing night drains your strength.",
+    "choices": [
+      {"text": "Stay awake and alert", "effects": {"energy": -8, "morale": -3}, "probability": 0.8},
+      {"text": "Risk sleep", "effects": {"health": -6}, "probability": 1.0}
+    ]
+  },
+  {
+    "id": "sandstorm",
+    "environment": ["desert"],
+    "description": "A violent sandstorm approaches.",
+    "choices": [
+      {"text": "Push through", "effects": {"health": -12}, "probability": 0.6},
+      {"text": "Take cover", "effects": {"energy": -3}, "probability": 1.0}
+    ]
+  },
+  {
+    "id": "strange_signal",
+    "environment": ["city", "arctic"],
+    "description": "You detect a weak radio signal.",
+    "choices": [
+      {"text": "Follow the signal", "effects": {"energy": -5, "reputation": 2}, "probability": 0.7},
+      {"text": "Ignore it", "effects": {"morale": -3}, "probability": 1.0}
+    ]
+  },
+  {
+    "id": "spoiled_food",
+    "environment": ["forest", "city"],
+    "description": "Your stored food smells rotten.",
+    "choices": [
+      {"text": "Eat it anyway", "effects": {"health": -8, "hunger": 10}, "probability": 0.6},
+      {"text": "Throw it away", "effects": {"morale": -4}, "probability": 1.0}
+    ]
+  },
+  {
+    "id": "lonely_night",
+    "environment": ["forest", "desert", "arctic"],
+    "description": "Loneliness weighs heavily on your mind.",
+    "choices": [
+      {"text": "Reflect and endure", "effects": {"morale": 4}, "probability": 0.7},
+      {"text": "Panic silently", "effects": {"morale": -6}, "probability": 1.0}
+    ]
+  },
+  {
+    "id": "abandoned_vehicle",
+    "environment": ["city", "desert"],
+    "description": "You find an abandoned vehicle.",
+    "choices": [
+      {"text": "Search it", "effects": {"hunger": 10, "energy": 4}, "probability": 0.8},
+      {"text": "Move on", "effects": {"reputation": 1}, "probability": 1.0}
+    ]
+  }
+]
